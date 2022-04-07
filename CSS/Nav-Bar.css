@@ -1,0 +1,40 @@
+.bg-light{
+    padding: 0;
+}
+.top{
+    color: #1F2B6C;
+    text-align: left;
+}
+div.top.container{
+    display: flex;
+    align-items: center;
+}
+.navbar-nav p{
+    width:max-content;
+}
+.barangay{
+    font-family: 'Yeseva One'; 
+    font-weight:bold;
+    font-size: 300%;
+}
+.nav-right{
+    padding-right: 30px;
+    margin-top: 16px;
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
+.container-fluid.below{
+    background-color: #212124;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    color: white;
+    font-family: 'Work Sans', sans-serif,Regular;
+    font-weight: lighter;
+    padding: 1em 0 1em 0;
+}
+.navbar-expand-sm .navbar-nav .nav-link{
+    padding: 0 2em 0 2em;
+    color: white;
+}
