@@ -38,3 +38,6 @@ div.top.container{
     padding: 0 2em 0 2em;
     color: white;
 }
+a.nav-link.navigation.current{
+    color: #BFD2F8;
+}
