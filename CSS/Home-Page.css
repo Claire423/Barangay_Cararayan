@@ -1,0 +1,39 @@
+
+
+.Image_holder{
+    position: relative;
+    display: inline-block;
+}
+.text_block{
+    position: absolute;
+    top:20%;
+    left: 10%;
+    text-align: center;
+    color: white;
+}
+.yesseva{
+    font-family: 'Yeseva One', cursive; 
+    font-weight:normal;
+    font-size: 55px;
+}
+.work{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.center_text{
+    text-align: center;
+}
+.button_service{
+    position: absolute;
+    top: 180px;
+    left: 97px;
+}
+.top_button{
+    color: #1F2B6C;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px solid white;
+    padding: 10px 30px;
+    font-weight: bold;
+}

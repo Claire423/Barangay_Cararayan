@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 .bg-light{
     padding: 0;
 }
@@ -14,7 +17,6 @@ div.top.container{
 }
 .barangay{
     font-family: 'Yeseva One'; 
-    font-weight:bold;
     font-size: 300%;
 }
 .nav-right{
@@ -33,6 +35,7 @@ div.top.container{
     font-family: 'Work Sans', sans-serif,Regular;
     font-weight: lighter;
     padding: 1em 0 1em 0;
+    border-bottom: 1px solid black;
 }
 .navbar-expand-sm .navbar-nav .nav-link{
     padding: 0 2em 0 2em;
