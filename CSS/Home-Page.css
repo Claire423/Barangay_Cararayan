@@ -1,13 +1,13 @@
 
-
 .Image_holder{
     position: relative;
     display: inline-block;
 }
 .text_block{
     position: absolute;
-    top:20%;
+    top:35%;
     left: 10%;
+    transform: translate(-5%, -30%);
     text-align: center;
     color: white;
 }
@@ -36,4 +36,36 @@
     border: 0px solid white;
     padding: 10px 30px;
     font-weight: bold;
+}
+ul,li{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.announcement{
+    position: absolute;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button_size{
+    width: 300px;
+    height: 80px;
+    border: 0px solid white;
+}
+.ann{
+    background-color: #170E06;
+    color: white;
+}
+.proj{
+    background-color: #BFF8F8;
+    color: #170E06;
+}
+.loc{
+    background-color: #001A78;
+    color: white;
+}
+.space{
+    margin-left: 20px;
 }
