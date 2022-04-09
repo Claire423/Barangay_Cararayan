@@ -57,14 +57,23 @@ ul,li{
 .ann{
     background-color: #170E06;
     color: white;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: normal;
 }
 .proj{
     background-color: #BFF8F8;
     color: #170E06;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: normal;
 }
 .loc{
     background-color: #001A78;
     color: white;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: normal;
 }
 .space{
     margin-left: 20px;
