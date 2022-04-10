@@ -2,14 +2,24 @@
 .Image_holder{
     position: relative;
     display: inline-block;
+    padding: 0 0 0 0;
 }
 .text_block{
     position: absolute;
-    top:35%;
-    left: 10%;
-    transform: translate(-5%, -30%);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+}
+.announcement{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.cararayan-background{
+    padding: 0 0 90px 0;
 }
 .yesseva{
     font-family: 'Yeseva One', cursive; 
@@ -26,7 +36,7 @@
 }
 .button_service{
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 97px;
 }
 .top_button{
@@ -41,13 +51,6 @@
     display: flex;
     gap: 50px;
     list-style: none;
-}
-.announcement{
-    position: absolute;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 .button_size{
     width: 300px;
@@ -77,4 +80,59 @@
 }
 .space{
     margin-left: 20px;
+}
+.pb-10{
+    padding-bottom: 8%;
+}
+.welcome-cararayan{
+    font-size: 18px;
+    font-weight: 900;
+    color: #159EEC;
+}
+.a-great-place{
+    font-size: 32px;
+    font-weight: bold;
+    color: #1F2B6C;
+}
+
+.cararayan-is-a-barangay{
+    font-size: 16px;
+    letter-spacing: 0;
+}
+.learn-more{
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 0;
+}
+.frequently{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 16%;
+    color: #159EEC;
+}
+.barangay-service{
+    font-size: 32px;
+    color: #1F2B6C;
+}
+.carousel-inner{
+    background-color: #170E06;
+    padding: 30px 0 55px 150px;
+    border-radius: 20px;
+}
+.round{
+    border-radius: 50px;    
+}
+.barangay-clearance{
+    color: white;
+}
+.how{
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.details{
+    font-weight:lighter;
+    font-size: 18px;
+    letter-spacing: 0;
 }

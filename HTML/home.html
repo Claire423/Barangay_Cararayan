@@ -8,10 +8,10 @@
     <title>Home Page</title>
 </head>
 <body>
-    This is for the Navigation Bar
+    <!-- This is for the Navigation Bar -->
     <link href="../CSS/Nav-Bar.css" rel="stylesheet">
     <div class="fixed-top">
-        <nav class="navbar navbar-expand-sm bg-light">
+        <nav class="navbar container-fluid navbar-expand-sm bg-light">
             <div class="top container">
                 <h1 class="barangay">CARARAYAN</h1>
                 <ul class="navbar-nav">
@@ -47,26 +47,185 @@
     <!-- This is for the Top Home-Page -->
     <link href="../CSS/Home-Page.css" rel="stylesheet">
     <main class="box-search">
-        <div class="Image_holder">
-            <img class="img-fluid image_left" src="../IMAGE/HomePage/Top_Bg.png" alt="Home Page Background" style="width: 100%; ">
-            <div class="text_block">
+        <div class="Image_holder container-fluid text-center">
+            <img class="img-fluid image_left cararayan-background" src="../IMAGE/HomePage/Top_Bg.png" alt="Home Page Background">
+            <div class="text_block text-center">
                 <h1 class="yesseva center_text">Cararayan <h5 class="work">Naga City, Camarines Sur</h5></h1>
                 <div class="button_service work">
                     <button onclick="document.location ='services.html'" class="top_button">Our Services</button>
                 </div>
             </div>
+            <div class="announcement">
+                <ul class="list-group list-group-horizontal spaces">
+                    <li ><button class="button_size ann work" onclick="document.location='news.html'">Announcement & Activities <img class="space" src="../IMAGE/HomePage/Calendar.png" alt="News" width="40px"></button></li>
+                    <li><button  class="button_size proj work" onclick="document.location='news.html'">Barangay Projects <img class="space" src="../IMAGE/HomePage/Barangay_Proj.png" alt="Projects" width="40px" height="40px"></button></li>
+                    <li ><button id="location_button" class="button_size loc work">Office Location <img class="space" src="../IMAGE/HomePage/Location.png" alt="Location" width="40px" height="40px"></button></li>
+                </ul>
+            </div>
+        </main>
         </div>
-    </main>
 
-    <div class="announcement">
-        <ul class="list-group list-group-horizontal spaces">
-            <li ><button class="button_size ann work" onclick="document.location='news.html'">Announcement & Activities <img class="space" src="../IMAGE/HomePage/Calendar.png" alt="News" width="40px"></button></li>
-            <li><button  class="button_size proj work" onclick="document.location='news.html'">Barangay Projects <img class="space" src="../IMAGE/HomePage/Barangay_Proj.png" alt="Projects" width="40px" height="40px"></button></li>
-            <li ><button id="location_button" class="button_size loc work">Office Location <img class="space" src="../IMAGE/HomePage/Location.png" alt="Location" width="40px" height="40px"></button></li>
-        </ul>
+    
+   
+    <!-- WELCOME TO CARARAYAN -->
+    <div class="container text-center cararayan-info">
+        <h4 class="work welcome-cararayan">WELCOME TO CARARAYAN</h4>
+        <h2 class="yesseva a-great-place">A Great Place to Visit and Discover</h2>
+        <p class="work cararayan-is-a-barangay">Cararayan is a barangay in the city of Naga, in the province of Camarines Sur. Its <br>
+        population as determined by the 2020 Census was 10,692. This represented 9.41% <br>
+        of the population of Naga.</p>
+        <a href="../HTML/faq.html" class="work learn-more" >Learn More &#8594</a>
+        <br><br>
+        <img class="pb-10" src="../IMAGE/HomePage/Barangay_Officials.png" alt="Barangay Officials" style="width: 100%;">
+    </div>
+
+    <!-- FREQUENTLY ASKED QUESTIONS -->
+    <div class="container text-center">
+        <div>
+            <h4 class="work frequently">FREQUENTLY ASKED QUESTIONS</h4>
+            <h2 class="yesseva barangay-service">Barangay Services</h2>
+            <br>
+        </div>
     </div>
 
 
+    <!-- Carousel -->
+<div id="demo" class="carousel slide container" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+
+        <!-- Barangay Certificate -->
+      <div class="carousel-item active">
+        <div class="row align-items-center">
+            <div class="col-sm-5 py-2">
+                <img src="../IMAGE/HomePage/Certification.png" alt="Los Angeles" class="d-block w-40 round">
+            </div>
+            <div class="col-sm-6 py-2 barangay-clearance">
+                <p class="work how">How to Get Barangay Clearance</p>
+                <ul>
+                    <li class="work cararayan-is-a-barangay"> Filled out Application Form. This will be given at <br> the Barangay hall</li>
+                    <li class="work cararayan-is-a-barangay">Recent Community Tax Certificate (CTC) or Cedula, <br>This is typically issued at the municipal or city hall, <br>Although some barangay halls may issue it as well.</li>
+                    <li class="work cararayan-is-a-barangay">Barangay Clearance Fee</li>
+                </ul>
+                <p class="work cararayan-is-a-barangay"><strong>A Barangay Clearance</strong> is a government - issued document in the Philippines. It is used to certify a person with good moral character and, a law - abiding citizen of a certain barangay</p>
+            </div>
+        </div>
+      </div>
+
+
+        <!-- Blotter -->
+      <div class="carousel-item">
+        <div class="row align-items-center">
+            <div class="col-sm-5 py-2">
+                <img src="../IMAGE/HomePage/Blotter.png" alt="Los Angeles" class="d-block w-40 round">
+            </div>
+            <div class="col-sm-6 py-2 barangay-clearance">
+                <p class="work how">How to Get Barangay Clearance</p>
+                <ul>
+                    <li class="work cararayan-is-a-barangay"> Filled out Application Form. This will be given at <br> the Barangay hall</li>
+                    <li class="work cararayan-is-a-barangay">Recent Community Tax Certificate (CTC) or Cedula, <br>This is typically issued at the municipal or city hall, <br>Although some barangay halls may issue it as well.</li>
+                    <li class="work cararayan-is-a-barangay">Barangay Clearance Fee</li>
+                </ul>
+                <p class="work cararayan-is-a-barangay"><strong>A Barangay Clearance</strong> is a government - issued document in the Philippines. It is used to certify a person with good moral character and, a law - abiding citizen of a certain barangay</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Reports -->
+      <div class="carousel-item">
+        <div class="row align-items-center">
+            <div class="col-sm-5 py-2">
+                <img src="../IMAGE/HomePage/Reports.png" alt="Los Angeles" class="d-block w-40 round">
+            </div>
+            <div class="col-sm-6 py-2 barangay-clearance">
+                <p class="work how">How to Get Barangay Clearance</p>
+                <ul>
+                    <li class="work cararayan-is-a-barangay"> Filled out Application Form. This will be given at <br> the Barangay hall</li>
+                    <li class="work cararayan-is-a-barangay">Recent Community Tax Certificate (CTC) or Cedula, <br>This is typically issued at the municipal or city hall, <br>Although some barangay halls may issue it as well.</li>
+                    <li class="work cararayan-is-a-barangay">Barangay Clearance Fee</li>
+                </ul>
+                <p class="work cararayan-is-a-barangay"><strong>A Barangay Clearance</strong> is a government - issued document in the Philippines. It is used to certify a person with good moral character and, a law - abiding citizen of a certain barangay</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Application for SK -->
+      <div class="carousel-item">
+        <div class="row align-items-center">
+            <div class="col-sm-5 py-2">
+                <img src="../IMAGE/HomePage/SK.png" alt="Los Angeles" class="d-block w-40 round">
+            </div>
+            <div class="col-sm-6 py-2 barangay-clearance">
+                <p class="work how">How to Get Barangay Clearance</p>
+                <ul>
+                    <li class="work cararayan-is-a-barangay"> Filled out Application Form. This will be given at <br> the Barangay hall</li>
+                    <li class="work cararayan-is-a-barangay">Recent Community Tax Certificate (CTC) or Cedula, <br>This is typically issued at the municipal or city hall, <br>Although some barangay halls may issue it as well.</li>
+                    <li class="work cararayan-is-a-barangay">Barangay Clearance Fee</li>
+                </ul>
+                <p class="work cararayan-is-a-barangay"><strong>A Barangay Clearance</strong> is a government - issued document in the Philippines. It is used to certify a person with good moral character and, a law - abiding citizen of a certain barangay</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Application for PWD -->
+      <div class="carousel-item">
+        <div class="row align-items-center">
+            <div class="col-sm-5 py-2">
+                <img src="../IMAGE/HomePage/PWD.png" alt="Los Angeles" class="d-block w-40 round">
+            </div>
+            <div class="col-sm-6 py-2 barangay-clearance">
+                <p class="work how">How to Get Barangay Clearance</p>
+                <ul>
+                    <li class="work cararayan-is-a-barangay"> Filled out Application Form. This will be given at <br> the Barangay hall</li>
+                    <li class="work cararayan-is-a-barangay">Recent Community Tax Certificate (CTC) or Cedula, <br>This is typically issued at the municipal or city hall, <br>Although some barangay halls may issue it as well.</li>
+                    <li class="work cararayan-is-a-barangay">Barangay Clearance Fee</li>
+                </ul>
+                <p class="work cararayan-is-a-barangay"><strong>A Barangay Clearance</strong> is a government - issued document in the Philippines. It is used to certify a person with good moral character and, a law - abiding citizen of a certain barangay</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Summons -->
+      <div class="carousel-item">
+        <div class="row align-items-center">
+            <div class="col-sm-5 py-2">
+                <img src="../IMAGE/HomePage/Summon.png" alt="Los Angeles" class="d-block w-40 round">
+            </div>
+            <div class="col-sm-6 py-2 barangay-clearance">
+                <p class="work how">How to Get Barangay Clearance</p>
+                <ul>
+                    <li class="work cararayan-is-a-barangay"> Filled out Application Form. This will be given at <br> the Barangay hall</li>
+                    <li class="work cararayan-is-a-barangay">Recent Community Tax Certificate (CTC) or Cedula, <br>This is typically issued at the municipal or city hall, <br>Although some barangay halls may issue it as well.</li>
+                    <li class="work cararayan-is-a-barangay">Barangay Clearance Fee</li>
+                </ul>
+                <p class="work cararayan-is-a-barangay"><strong>A Barangay Clearance</strong> is a government - issued document in the Philippines. It is used to certify a person with good moral character and, a law - abiding citizen of a certain barangay</p>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+
     <script type="text/javascript" src="../JAVASCRIPT/java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
