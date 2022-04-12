@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 .Image_holder{
     position: relative;
     display: inline-block;
@@ -114,8 +114,8 @@
     font-size: 32px;
     color: #1F2B6C;
 }
-.carousel-inner{
-    background-color: #170E06;
+.first-carousel{
+    background-color: #BFF8F8;
     padding: 30px 0 55px 150px;
     border-radius: 20px;
 }
@@ -123,16 +123,46 @@
     border-radius: 50px;    
 }
 .barangay-clearance{
-    color: white;
+    color: black;
 }
 .how{
     text-align: center;
     font-weight:bold;
     font-size: 20px;
     letter-spacing: 5px;
+    color: #1F2B6C;
 }
 .details{
     font-weight:lighter;
     font-size: 18px;
     letter-spacing: 0;
+}
+.Announcement_holder{
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 0;
+}
+.announcement_block{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    color: black;
+    text-align: left;
+}
+.annoucement-details{
+    width: 50%;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+}
+.announcement-title{
+    color: #159EEC;
+}
+.big-calendar{
+    position: absolute;
+    bottom: -5%;
+    right: 5%;
+}
+.Announcement-image{
+    padding-bottom: 90px;
 }
