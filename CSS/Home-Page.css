@@ -166,3 +166,20 @@
 .Announcement-image{
     padding-bottom: 90px;
 }
+.officer-background{
+    background-color: #BFD2F8;
+    border: 0px solid #ccc;
+}
+h4.work.card-title{
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-weight: normal;
+}
+p.work.card-text{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+img.card-img-top{
+    border-bottom: 20px solid white;
+}
