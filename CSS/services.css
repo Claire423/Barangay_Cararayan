@@ -1,0 +1,19 @@
+body{
+	position: relative;
+	padding-bottom: 60px;
+	min-height: 100vh;
+}
+main{
+	width: 90vw;
+	margin:6px ;
+	padding: 50px 5px;
+}
+
+footer{
+	text-align: center;
+	background-color: navy;
+	color: #fff;
+	padding: 5px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;}
