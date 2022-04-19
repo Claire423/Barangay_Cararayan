@@ -166,6 +166,29 @@
 .Announcement-image{
     padding-bottom: 90px;
 }
+.btn-outline-primary{
+    background-color: #1F2B6C;
+    color: white;
+    border: 0px solid #ccc;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+div.carousel-inner.first-carousel.officer{
+    padding: 0;
+    padding-bottom: 80px;
+    background-color: white;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:#BFD2F8 ;
+
+}
+.carousel-dark .carousel-indicators [data-bs-target].active{
+    background-color: #1F2B6C;
+}
 .officer-background{
     background-color: #BFD2F8;
     border: 0px solid #ccc;
@@ -182,4 +205,28 @@ p.work.card-text{
 }
 img.card-img-top{
     border-bottom: 20px solid white;
+}
+.container.text-center li{
+    background-color: #BFD2F8;
+    list-style: none;
+    margin: 40px;
+    width:220px;
+    padding: 50px 15px;
+    border-radius: 10px;
+}
+p.work.contact-info{
+    letter-spacing: 0px;
+    font-size: 16px;
+    color: #1F2B6C;   
+}
+p.work strong{
+    letter-spacing: 0px;
+    font-size: 18px;
+    color: #1F2B6C;
+}
+.white-color{
+    color: white;
+}
+.white-color:hover{
+    color: #BFD2F8;
 }

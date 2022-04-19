@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    min-height: 1000vh;
-}
-
 .bg-light{
     padding: 0;
+}
+a{
+    text-decoration: none;
 }
 .top{
     color: #1F2B6C;
@@ -53,3 +52,48 @@ div.top.container{
 a.nav-link.navigation.current{
     color: #BFD2F8;
 }
+a.nav-link.navigation:hover{
+    color: #BFD2F8;
+}
+.container-fluid.bottomnav{
+    background-color: #1F2B6C;
+    padding: 50px 0px 25px 0px;
+}
+.bottomnav.container ul li{
+    list-style: none;
+    color: white;
+    margin-right: 50px;
+}
+
+h1.barangay.bottom {
+    color: #BFD2F8;
+    letter-spacing: 0px;
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+.bottom-content{
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.header-bottom{
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 18px;
+    width: max-content;
+}
+hr{
+    border: 1px solid white;
+}
+.copyright-logo{
+    margin-top: 2px;
+    width: 20px;
+    float: left;
+}
+p.work.copy-right{
+    padding-left: 30px;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 16px;
+}
+
